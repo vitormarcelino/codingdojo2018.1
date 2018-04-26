@@ -1,0 +1,39 @@
+.topo {
+		height: 4em;
+	background-color: gray;
+	
+}
+
+.logo {
+	background-color: black;
+	color: white;
+	margin-left: 15px;
+	width: 165px;
+}
+
+.loginArea {
+	
+	list-style: none;	
+}
+
+.loginArea ul{
+	margin: 0;
+    padding: 0;
+	}
+	
+	li{
+		display: block;
+	}
+	
+.clear{
+	clear: both;
+}
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+
