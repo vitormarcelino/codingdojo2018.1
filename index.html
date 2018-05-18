@@ -1,94 +1,105 @@
 <html lang="pt-br">
 <head>
     <meta charset="utf-8"/>
-    <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport"/>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
     <title>Adote um Pet</title>
-    <link href="style.css" rel="stylesheet"/>
-    <script src=""></script>
+    <link href="css/style.css" rel="stylesheet"/>
+    <script src="scripts/script.js"></script>
 </head>
 <body>
-	 <header>
-	    <nav>
-	      <div class="logoArea">
-          <div class="logo">Adote um Pet</div>
-        </div>
-        <ul class = "menu">
-	            <li>Login</li>
+
+	<header>
+		<h1 id="logo">Adote um Pet</h1>
+	    <nav class="topnav">
+	        <ul>
+	            <li>
+	            	<a href="#">login</a>
+	        	</li>
 	        </ul>
 	    </nav>
 	</header>
-  
-    <section class ="meio">
-	    <article >
+
+	<section class="row" id="first-section">
+	    <article class="two-columns">
 	        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-			<figure>
-				<img src="images/img-principal.jpg">
-			</figure>
 	    </article>
-	 </section>
-	
-	 <section>
+	    <figure class="two-columns">
+				<img src="images/img-principal.jpg">
+		</figure>
+	</section>
+
+	 <section class="row" id="second-section">
 	    <article>
 	        <header>
 	            <h2>O título do artigo é aqui</h2>
 	        </header>
-	        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut arcu sed velit aliquam blandit. Suspendisse tempor vestibulum elit, id imperdiet lacus molestie vel. Vivamus dapibus diam non diam dapibus, ut aliquam ipsum viverra. In pretium posuere sodales. Suspendisse eu pretium justo. Cras vitae turpis sit amet dolor dignissim laoreet sed eu purus. Mauris quis neque nec ligula tempor dapibus non eget nibh. Fusce sodales est nec neque malesuada dignissim. Cras id fringilla leo. Etiam id imperdiet lacus, sed facilisis sem. Mauris egestas gravida lorem, in aliquet risus aliquam sit amet. Cras varius hendrerit leo vitae porta. Aliquam venenatis, augue at molestie sodales, leo mi efficitur ex, quis semper sem lacus sed justo.</p>
 	    </article>
 	</section>
 	
-	<hr>
+	<div class="hr">
+		<hr>
+	</div>
 	
-	<section>
-	    <div id="myCarousel">
-			<!-- Indicators -->
-			<ol class="carousel-indicators">
-				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-				<li data-target="#myCarousel" data-slide-to="1"></li>
-				<li data-target="#myCarousel" data-slide-to="2"></li>
-			</ol>
+	<section class="row" id="myCarousel">
+	    
 			<!-- Wrapper for slides -->
-			<div class="carousel-inner">
-				<div class="item active">
-					<img src="images/cao1.jpg" alt="Billy">
+			<div class="row">
+				<div class="four-columns item active">
+					<a href="#myCarousel">
+						<img src="images/1.jpeg" alt="Billy">
+					</a>
 					<div class="carousel-caption">
         				<h3>Billy</h3>
       				</div>
 				</div>
 
-				<div class="item">
-				  <img src="images/cao2.jpg"" alt="Totó">
-				  <div class="carousel-caption">
-        				<h3>Totó</h3>
+				<div class="four-columns item">
+				  	<a href="#myCarousel">
+				  		<img src="images/2.jpg"" alt="Suzy">
+				  	</a>
+				  	<div class="carousel-caption">
+        				<h3>Suzy</h3>
       				</div>
 				</div>
 
-				<div class="item">
-				  <img src="images/cao3.jpg"" alt="Rex">
-				  <div class="carousel-caption">
+				<div class="four-columns item">
+					<a href="#myCarousel">
+				  		<img src="images/3.jpeg"" alt="Rex">
+				  	</a>
+				    <div class="carousel-caption">
         				<h3>Rex</h3>
       				</div>
 				</div>
-				
-				<div class="item">
-				  <img src="images/gato1.jpg"" alt="Fifi">
-				  <div class="carousel-caption">
-        				<h3>Fifi</h3>
+
+				<div class="four-columns item">
+					<a href="#myCarousel">
+				  		<img src="images/4.jpeg"" alt="Totó">
+				  	</a>
+				  	<div class="carousel-caption">
+        				<h3>Totó</h3>
       				</div>
 				</div>
 			</div>
-			<!-- Left and right controls -->
-			<a class="left carousel-control" href="#myCarousel" data-slide="prev">
-				<span class="glyphicon glyphicon-chevron-left"></span>
-				<span class="sr-only">Previous</span>
-			</a>
-			<a class="right carousel-control" href="#myCarousel" data-slide="next">
-				<span class="glyphicon glyphicon-chevron-right"></span>
-				<span class="sr-only">Next</span>
-			</a>
-		
-		</div>
 
+			<!-- Left and right controls -->
+			<a class="left carousel-control" href="#myCarousel">
+				<img src="images/Icon-left-arrow.png" alt="Next"></span>
+			</a>
+			<a class="right carousel-control" href="#myCarousel">
+				<img src="images/Icon-left-arrow.png" alt="Next"></span>
+			</a>
+
+			<div class="carousel-indicators">
+			<!-- Indicators -->
+				<ol>
+					<li class="active carousel-dot"></li>
+					<li class="carousel-dot"></li>
+					<li class="carousel-dot"></li>
+				</ol>
+			</div>
+		
 	</section>
 
 	<footer>
