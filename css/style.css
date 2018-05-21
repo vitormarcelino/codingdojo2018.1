@@ -202,3 +202,12 @@ body {
 .carousel-indicators ol .active {
      background: Silver;
 }
+
+.hidden {
+    display: none
+}
+
+footer > p {
+    font-size: 12px;
+    text-align: center;
+}
