@@ -1,3 +1,5 @@
+// Dísponivel no GitHub: https://github.com/vitormarcelino/codingdojo2018.1
+
 var fistItem = 0;
 var lastItem = 3;
 var itensPerPage = 4;
