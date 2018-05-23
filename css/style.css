@@ -211,3 +211,16 @@ footer > p {
     font-size: 12px;
     text-align: center;
 }
+
+.imagem_destaque {
+    margin-left: 50px;
+    float: right;
+}
+
+.center {
+    text-align: center;
+}
+
+.descricao {
+    margin-top: 50px;
+}
