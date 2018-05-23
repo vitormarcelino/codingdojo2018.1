@@ -213,6 +213,8 @@ footer > p {
 }
 
 .imagem_destaque {
+    max-height: 200px;
+    max-width: 200px;
     margin-left: 50px;
     float: right;
 }
@@ -223,4 +225,5 @@ footer > p {
 
 .descricao {
     margin-top: 50px;
+    text-align: center;
 }
