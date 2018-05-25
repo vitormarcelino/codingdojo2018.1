@@ -1,0 +1,133 @@
+[{
+        "nome": "Totó",
+        "foto": "1.jpeg",
+        "espécie": "cachorro",
+        "raça": "buldogue",
+        "cor": "marrom",
+        "idade": 5,
+        "sexo": "macho",
+        "castrado": true,
+        "vacinas": ["antirrábica", "parvovirose"]
+    },
+    {
+        "nome": "Suzy",
+        "foto": "2.jpg",
+        "espécie": "cachorro",
+        "raça": "buldogue",
+        "cor": "bege",
+        "idade": 1,
+        "sexo": "fêmea",
+        "castrado": true,
+        "vacinas": ["antirrábica"]
+    },
+    {
+        "nome": "Billy",
+        "foto": "3.jpeg",
+        "espécie": "cachorro",
+        "raça": "labrador",
+        "cor": "amarelo",
+        "idade": 1.5,
+        "sexo": "macho",
+        "castrado": false,
+        "vacinas": ["antirrábica", "tosse dos canis"]
+    },
+    {
+        "nome": "Fifi",
+        "foto": "4.jpeg",
+        "espécie": "gato",
+        "raça": "não definida",
+        "cor": "rajada",
+        "idade": 0.5,
+        "sexo": "fêmea",
+        "castrado": false,
+        "vacinas": ["antirrábica", "leucemia"]
+    },
+    {
+        "nome": "Rex",
+        "foto": "5.jpeg",
+        "espécie": "cachorro",
+        "raça": "não definida",
+        "cor": "bege e preto",
+        "idade": 2,
+        "sexo": "macho",
+        "castrado": false,
+        "vacinas": ["antirrábica"]
+    },
+    {
+        "nome": "Peludo",
+        "foto": "6.jpg",
+        "espécie": "cachorro",
+        "raça": "não definida",
+        "cor": "bege e preto",
+        "idade": 1.5,
+        "sexo": "macho",
+        "castrado": true,
+        "vacinas": ["antirrábica"]
+    },
+    {
+        "nome": "Bichano",
+        "foto": "7.jpeg",
+        "espécie": "gato",
+        "raça": "não definida",
+        "cor": "cinza",
+        "idade": 0.2,
+        "sexo": "macho",
+        "castrado": false,
+        "vacinas": ["leucemia"]
+    },
+    {
+        "nome": "Panda",
+        "foto": "8.jpg",
+        "espécie": "cachorro",
+        "raça": "não definida",
+        "cor": "branco e preto",
+        "idade": 1,
+        "sexo": "fêmea",
+        "castrado": false,
+        "vacinas": []
+    },
+    {
+        "nome": "Mimosa",
+        "foto": "9.jpeg",
+        "espécie": "gato",
+        "raça": "não definida",
+        "cor": "rajado",
+        "idade": 4,
+        "sexo": "fêmea",
+        "castrado": true,
+        "vacinas": []
+    },
+    {
+        "nome": "Amigo",
+        "foto": "10.jpeg",
+        "espécie": "cachorro",
+        "raça": "não definida",
+        "cor": "preto e marrom",
+        "idade": 4,
+        "sexo": "macho",
+        "castrado": true,
+        "vacinas": ["tosse dos canis"]
+    },
+    {
+        "nome": "Bolado",
+        "foto": "11.jpeg",
+        "espécie": "gato",
+        "raça": "não definida",
+        "cor": "branco e marrom",
+        "idade": 4,
+        "sexo": "macho",
+        "castrado": true,
+        "vacinas": ["parvovirose"]
+    },
+    {
+        "nome": "Feliz",
+        "foto": "12.jpeg",
+        "espécie": "cachorro",
+        "raça": "não definida",
+        "cor": "amarelo e branco",
+        "idade": 1,
+        "sexo": "macho",
+        "castrado": false,
+        "vacinas": ["tosse dos canis", "antirrábica", "parvovirose"]
+    }
+]

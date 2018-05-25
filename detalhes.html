@@ -31,32 +31,30 @@
 	</section>
     
     <section class="row">
-	    <article class="two-columns center">
-            <ul>
-                <li>Especie: Cão</li>
-                <li>Raça: Pug</li>
-                <li>Cor: Branco</li>
-                <li>Idade: 4 anos</li>
-                <li>Macho</li>
-                <li>Cadastrado: Sim</li>
-            </ul>
+	    <div class="two-columns center capitalize">
+            <a class="btn_voltar" href="index.html">
+                <button type="button">Voltar</button>
+            </a>
+            <h1 id="nome"></h1>
+            <p>Especie: <span id="especie"></span></p>
+            <p>Raça: <span id="raca"></span></p>
+            <p>Cor: <span id="cor"></span></p>
+            <p>Idade: <span id="idade"></span></p>
+            <p>Gênero: <span id="genero"></span></p>
+            <p>Cadastrado: <span id="castrado"></span></p>
+            
             <h1>Vacinas</h1>
-            <ul>
-                <li>Antirábica</li>
-                <li>Raiva</li>
-                <li>Polivalente v10</li>
+            <ul id="vacinasList">
             </ul>
-	    </article>
+	    </div>
 	    <figure class="two-columns">
-            <img src="images/1.jpeg" alt="Billy" class="imagem_destaque">
+            <img id="img_cao" class="imagem_destaque">
 		</figure>
 	</section>
 	
 	<div class="hr">
 		<hr>
 	</div>
-	
-
 
 	<footer>
         <p>Adote um Pet</p>
@@ -64,6 +62,6 @@
         <p>(71) 9999-6633</p>
         <p></p>
 	</footer>
-    <script src="js/script.js"></script>
+    <script src="js/detalhe.js"></script>
 </body>
 </html>

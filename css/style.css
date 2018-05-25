@@ -229,3 +229,12 @@ footer > p {
     margin-top: 50px;
     text-align: center;
 }
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.btn_voltar {
+    background-color: #D8D8D8;
+    color: aqua;
+}
