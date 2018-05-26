@@ -238,3 +238,11 @@ footer > p {
     background-color: #D8D8D8;
     color: aqua;
 }
+
+.btn_voltar button {
+    background-color: #000000;
+    font-size: 20px;
+    width: 90px;
+    height: 50px;
+    color: #ffffff;
+}
