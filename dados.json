@@ -6,8 +6,7 @@
         "cor": "marrom",
         "idade": 5,
         "sexo": "macho",
-        "castrado": true,
-        "vacinas": ["antirrábica", "parvovirose"]
+        "castrado": true
     },
     {
         "nome": "Suzy",
@@ -17,8 +16,7 @@
         "cor": "bege",
         "idade": 1,
         "sexo": "fêmea",
-        "castrado": true,
-        "vacinas": ["antirrábica"]
+        "castrado": true
     },
     {
         "nome": "Billy",
@@ -28,8 +26,7 @@
         "cor": "amarelo",
         "idade": 1.5,
         "sexo": "macho",
-        "castrado": false,
-        "vacinas": ["antirrábica", "tosse dos canis"]
+        "castrado": false
     },
     {
         "nome": "Fifi",
@@ -39,8 +36,7 @@
         "cor": "rajada",
         "idade": 0.5,
         "sexo": "fêmea",
-        "castrado": false,
-        "vacinas": ["antirrábica", "leucemia"]
+        "castrado": false
     },
     {
         "nome": "Rex",
@@ -50,8 +46,7 @@
         "cor": "bege e preto",
         "idade": 2,
         "sexo": "macho",
-        "castrado": false,
-        "vacinas": ["antirrábica"]
+        "castrado": false
     },
     {
         "nome": "Peludo",
@@ -61,8 +56,7 @@
         "cor": "bege e preto",
         "idade": 1.5,
         "sexo": "macho",
-        "castrado": true,
-        "vacinas": ["antirrábica"]
+        "castrado": true
     },
     {
         "nome": "Bichano",
@@ -72,8 +66,7 @@
         "cor": "cinza",
         "idade": 0.2,
         "sexo": "macho",
-        "castrado": false,
-        "vacinas": ["leucemia"]
+        "castrado": false
     },
     {
         "nome": "Panda",
@@ -83,8 +76,7 @@
         "cor": "branco e preto",
         "idade": 1,
         "sexo": "fêmea",
-        "castrado": false,
-        "vacinas": []
+        "castrado": false
     },
     {
         "nome": "Mimosa",
@@ -94,8 +86,7 @@
         "cor": "rajado",
         "idade": 4,
         "sexo": "fêmea",
-        "castrado": true,
-        "vacinas": []
+        "castrado": true
     },
     {
         "nome": "Amigo",
@@ -105,8 +96,7 @@
         "cor": "preto e marrom",
         "idade": 4,
         "sexo": "macho",
-        "castrado": true,
-        "vacinas": ["tosse dos canis"]
+        "castrado": true
     },
     {
         "nome": "Bolado",
@@ -116,8 +106,7 @@
         "cor": "branco e marrom",
         "idade": 4,
         "sexo": "macho",
-        "castrado": true,
-        "vacinas": ["parvovirose"]
+        "castrado": true
     },
     {
         "nome": "Feliz",
@@ -127,7 +116,6 @@
         "cor": "amarelo e branco",
         "idade": 1,
         "sexo": "macho",
-        "castrado": false,
-        "vacinas": ["tosse dos canis", "antirrábica", "parvovirose"]
+        "castrado": false
     }
 ]
