@@ -1,3 +1,4 @@
+<?php require_once 'bootstrap.php'; ?>
 <html lang="pt-br">
 <head>
     <meta charset="utf-8"/>
@@ -14,7 +15,12 @@
 	    <nav class="topnav">
 	        <ul>
 	            <li>
-	            	<a href="#">login</a>
+	            	<?php if(isset($_SESSION['login']['usuario'])) { ?>
+                        <a href="sair.php">Sair</a>
+                        <a href="login.php"><?php echo "Olá, " . $_SESSION['login']['usuario'] . "!"; ?></a>
+                    <?php } else { ?>
+                        <a href="login.php">Login</a>
+                    <?php } ?>
 	        	</li>
 	        </ul>
 	    </nav>
