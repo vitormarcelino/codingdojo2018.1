@@ -246,3 +246,12 @@ footer > p {
     height: 50px;
     color: #ffffff;
 }
+
+.btn_adotar input {
+    margin-top: 15px;
+    background-color: #000000;
+    font-size: 20px;
+    width: 90px;
+    height: 50px;
+    color: #ffffff;
+}

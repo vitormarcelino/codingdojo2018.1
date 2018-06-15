@@ -82,5 +82,6 @@ function init() {
         renderCarousel();
     });
 }
+renderCarousel();
 
-init();
+// init();

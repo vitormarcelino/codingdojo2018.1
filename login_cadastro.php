@@ -26,6 +26,7 @@ if($_POST['acao'] == 'Entrar') {
     $result = $stmt->fetch(\PDO::FETCH_ASSOC);
     
     if($result){
+        $_SESSION['login']['id'] = $result['id'];
         $_SESSION['login']['usuario'] = $result['nome'];
         $_SESSION['login']['email'] = $result['email'];
         $_SESSION['login']['senha'] = $result['senha'];

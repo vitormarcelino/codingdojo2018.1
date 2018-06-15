@@ -48,12 +48,27 @@
 	<div class="hr">
 		<hr>
 	</div>
+    
+    <?php 
+        $stmt = $db->prepare("SELECT * FROM animal");
+        $stmt->execute();
+        $animais = $stmt->fetchAll(\PDO::FETCH_ASSOC);
+    ?>
 	
 	<section class="row" id="myCarousel">
 	    
 			<!-- Wrapper for slides -->
 			<div class="row">
-			
+                <?php foreach ($animais as $animal) { ?>
+                    <div class="four-columns item hidden">
+                        <a href="detalhes.php?id=<?php echo $animal['id'] ?>">
+                            <img src="images/<?php echo $animal['foto'] ?>" alt="<?php echo $animal['nome'] ?>">
+                        </a>
+                        <div class="carousel-caption">
+                            <h3><?php echo $animal['nome'] ?></h3>
+                        </div>
+                    </div>
+                <?php } ?>
 			</div>
 
 			<!-- Left and right controls -->
